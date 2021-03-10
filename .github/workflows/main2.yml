@@ -10,6 +10,6 @@ jobs:
       - name: Run epics action
         uses: cloudaper/epics-action@v1
         with:
-          github-token: EPIC_TOKEN
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           epic-label-name: 에픽
           auto-close-epic: true
