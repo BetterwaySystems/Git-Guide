@@ -1,2 +1,15 @@
-- name: Epic issues for GitHub
-  uses: cloudaper/epics-action@v1.1.1
+name: Update epics
+on:
+  issues:
+    types: [opened, created, closed, reopened, deleted]
+jobs:
+  epics:
+    runs-on: ubuntu-latest
+    name: Update epic issues
+    steps:
+      - name: Run epics action
+        uses: cloudaper/epics-action@v1
+        with:
+          github-token: EPIC_TOKEN
+          epic-label-name: 에픽
+          auto-close-epic: true
