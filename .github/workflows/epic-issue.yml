@@ -5,7 +5,7 @@ on:
 jobs:
   epics:
     runs-on: ubuntu-latest
-    name: Update epic issues
+    name: Update epic issues 
     steps:
       - name: Run epics action
         uses: cloudaper/epics-action@v1.1.1
