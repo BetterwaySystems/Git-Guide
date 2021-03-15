@@ -19,5 +19,4 @@ app.get('/api/user', function(param, req, res){
 
 })
 
-
 app.listen(3000);
