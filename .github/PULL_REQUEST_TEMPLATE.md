@@ -1,5 +1,6 @@
 ## PR Checklist
 <!--
+0. Reviewer를 지정했는지 확인해주세요!
 1. 간단한 요약 내용을 작성해주세요 ( 상세한 내용을 ClickUp Task로 파악 )
 2. ClickUp Task ID 는 항상 필수로 입력해주세요. ( Github Issue 대신 사용 )
 3. PullRequest Title을 아래의 형식을 맞춰서 사용해주세요.
@@ -14,6 +15,6 @@
 
 ### Summary
 
-### ClickUp Task Id : 
+### ClickUp Task Id ( Main Task ) : 
 
 ### Breaking Change
